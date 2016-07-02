@@ -4,7 +4,7 @@
     "description": "Git based CI service",
     "main": "lib/index.js",
     "scripts": {
-        "test": "lib/index.js"
+        "test": "test/index.js"
     },
     "author": "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)",
     "contributors": [
