@@ -22,4 +22,4 @@ node_js:
 
 env:
   - NODE_ENV=release
-  - NODE_DEBUG=gitcapsule NODE_ENV=development
+  - NODE_DEBUG=gitci NODE_ENV=development
