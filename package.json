@@ -1,23 +1,20 @@
 {
-    "name": "gitci",
-    "version": "0.1.1",
-    "description": "Git based CI service",
-    "main": "lib/index.js",
-    "scripts": {
-        "pretest": "npm install -g",
-        "test": "gitci",
-        "posttest": "npm uninstall -g"
-    },
-    "bin": {
-        "gitci": "lib/index.js"
-    },
-    "author": "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)",
-    "contributors": [
-        "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)"
-    ],
-    "license": "GPL-3.0",
-    "dependencies": {
-        "forever": "^0.15.2",
-        "forever-monitor": "^1.7.0"
-    }
+  "name": "gitci",
+  "version": "0.1.1",
+  "description": "Git based CI service",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "bin": {
+    "gitci": "index.js"
+  },
+  "author": "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)",
+  "contributors": [
+    "João Miguel Marques Silva <joao@miguel.ms> (http://www.miguel.ms)"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "forever-monitor": "^1.7.0"
+  }
 }

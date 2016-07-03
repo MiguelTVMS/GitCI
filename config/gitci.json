@@ -1,16 +1,10 @@
 {
-    //The list of deployments that the app should do.
-    "deployments":[
+    "deployments": [
         {
-            //The git repository for this deployment.
-            "gitRepository":"", 
-            //The git branch for this deployment
-            "branch":"", 
-            //The local folder that will be used as the workspace.
-            "workspaceFolder":"", 
-            //The file with the deployment configuration.
-            //The path is relative to the workspace folder.
-            "configFile":"" 
+            "gitRepository": "",
+            "branch": "",
+            "workspaceFolder": "",
+            "configFile": ""
         }
     ]
 }
