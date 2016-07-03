@@ -1,10 +1,11 @@
 {
     "deployments": [
         {
-            "gitRepository": "",
-            "branch": "",
-            "workspaceFolder": "",
-            "configFile": ""
+            "gitRepository": "https://github.com/jmtvms/GitCI-Examples.git",
+            "branch": "master",
+            "workspaceFolder": "/deploy/gitci-examples",
+            "configFile": "config.json",
+            "pullInterval": 20
         }
     ]
 }

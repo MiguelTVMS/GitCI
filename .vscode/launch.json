@@ -16,7 +16,7 @@
             ],
             "env": {
                 "NODE_ENV": "development",
-                "NODE_DEBUG":"gitci"
+                "NODE_DEBUG":"gitci gitcapsule"
             },
             "externalConsole": false,
             "sourceMaps": false,

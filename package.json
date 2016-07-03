@@ -3,9 +3,6 @@
   "version": "0.1.1",
   "description": "Git based CI service",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "node test/index.js"
-  },
   "bin": {
     "gitci": "index.js"
   },
@@ -15,6 +12,7 @@
   ],
   "license": "GPL-3.0",
   "dependencies": {
-    "forever-monitor": "^1.7.0"
+    "forever-monitor": "^1.7.0",
+    "gitcapsule": "^0.1.1"
   }
 }
