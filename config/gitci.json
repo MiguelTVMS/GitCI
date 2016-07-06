@@ -1,4 +1,10 @@
 {
+    "moduleMapping": [
+        {
+            "action": "commands",
+            "module": "gitci-commandaction"
+        }
+    ],
     "deployments": [
         {
             "gitRepository": "https://github.com/jmtvms/GitCI-Examples.git",
