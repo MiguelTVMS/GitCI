@@ -25,7 +25,6 @@
     "url": "https://github.com/jmtvms/GitCI.git"
   },
   "homepage": "https://github.com/jmtvms/GitCI",
-  "readme": "README.md",
   "keywords": [
     "ci",
     "continuous integration",
