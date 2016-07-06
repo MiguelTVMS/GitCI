@@ -12,7 +12,7 @@ Latest Version: [![npm version](https://badge.fury.io/js/gitci.svg)](https://bad
 | master   | [![Build Status](https://travis-ci.org/jmtvms/GitCI.svg?branch=master)](https://travis-ci.org/jmtvms/GitCI)  |
 | develop  | [![Build Status](https://travis-ci.org/jmtvms/GitCI.svg?branch=develop)](https://travis-ci.org/jmtvms/GitCI)  |
 
-### Available actions
+### Native available actions
 
 | Action   | Latest Version | Master | GitHub | NPM |
 |----------|:--------------:|:------:|:------:|:---:|

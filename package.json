@@ -1,6 +1,6 @@
 {
   "name": "gitci",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Git based CI service",
   "main": "lib/index.js",
   "bin": {
@@ -13,6 +13,25 @@
   "license": "GPL-3.0",
   "dependencies": {
     "forever-monitor": "^1.7.0",
-    "gitcapsule": "^0.1.1"
-  }
+    "gitcapsule": "^0.1.1",
+    "gitci-commandaction": "^1.0.1"
+  },
+  "bugs": {
+    "email": "gitci@miguel.ms",
+    "url": "https://github.com/jmtvms/GitCI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmtvms/GitCI.git"
+  },
+  "homepage": "https://github.com/jmtvms/GitCI",
+  "readme": "README.md",
+  "keywords": [
+    "ci",
+    "continuous integration",
+    "deployment",
+    "git",
+    "deploy",
+    "multi-platform"
+  ]
 }
