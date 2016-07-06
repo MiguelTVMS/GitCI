@@ -20,6 +20,10 @@ Latest Version: [![npm version](https://badge.fury.io/js/gitci.svg)](https://bad
 | CommandAction | [![npm version](https://badge.fury.io/js/gitci-commandaction.svg)](https://badge.fury.io/js/gitci-commandaction) | [![Build Status](https://travis-ci.org/jmtvms/GitCI-CommandAction.svg?branch=master)](https://travis-ci.org/jmtvms/GitCI-CommandAction) | [Go](https://github.com/jmtvms/GitCI-CommandAction) | [Go](https://www.npmjs.com/package/gitci-commandaction) |
 
 ### Changes
+* Creating the module mapping to handle the internal actions and other user created actions.
 * Now the app monitor a git repository and branch a try to start the deploy.
- * The deployment process is not developed yet.
 * The tests where removed since it's a long running app and Travis-CI will fail the build.
+
+### To do
+* Start executing action modules.
+* Make usage of the CommandAction cretated for this app.
