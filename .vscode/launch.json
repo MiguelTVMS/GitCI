@@ -16,7 +16,28 @@
             ],
             "env": {
                 "NODE_ENV": "development",
-                "NODE_DEBUG":"gitci gitcapsule"
+                "NODE_DEBUG": "gitci gitcapsule"
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
+        },
+        {
+            "name": "Launch Commands",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/test/actions/commands.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development",
+                "NODE_DEBUG": "gitci gitcapsule"
             },
             "externalConsole": false,
             "sourceMaps": false,

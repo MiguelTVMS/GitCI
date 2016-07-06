@@ -7,9 +7,9 @@
                 {
                     "commands": [
                         {
-                            "command": "",
+                            "command": "cd",
                             "args": [
-                                ""
+                                "\\"
                             ]
                         },
                         {
@@ -18,74 +18,75 @@
                                 ""
                             ]
                         }
-                    }
-                ]
-            },
-            {
-                "type": "publish",
-                "actions": [
-                    {
-                        "delete": [
-                            {
-                                "path": "",
-                                "pattern": "",
-                                "recursive": true
-                            }
-                        ]
-                    },
-                    {
-                        "copy": [
-                            {
-                                "source": "",
-                                "destination": "",
-                                "pattern": "",
-                                "createIfInexistent": true
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "postpublish",
-                "actions": [
-                    {
-                        "commands": [
-                            "cli command01",
-                            "cli command02"
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "test",
-                "actions": [
-                    {
-                        "httpRequest": [
-                            {
-                                "url": "",
-                                "statusCode": 200
-                            },
-                            {
-                                "url": "",
-                                "statusCode": 200
-                            }
-                        ]
-                    },
-                    {
-                        "commands": [
-                            "cli command01",
-                            "cli command02"
-                        ]
-                    }
-                ],
-                "failureActions": [
-                    {
-                        "commands": [
-                            "cli command01",
-                            "cli command02"
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "publish",
+            "actions": [
+                {
+                    "delete": [
+                        {
+                            "path": "",
+                            "pattern": "",
+                            "recursive": true
+                        }
+                    ]
+                },
+                {
+                    "copy": [
+                        {
+                            "source": "",
+                            "destination": "",
+                            "pattern": "",
+                            "createIfInexistent": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "postpublish",
+            "actions": [
+                {
+                    "commands": [
+                        "cli command01",
+                        "cli command02"
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "test",
+            "actions": [
+                {
+                    "httpRequest": [
+                        {
+                            "url": "",
+                            "statusCode": 200
+                        },
+                        {
+                            "url": "",
+                            "statusCode": 200
+                        }
+                    ]
+                },
+                {
+                    "commands": [
+                        "cli command01",
+                        "cli command02"
+                    ]
+                }
+            ],
+            "failureActions": [
+                {
+                    "commands": [
+                        "cli command01",
+                        "cli command02"
+                    ]
+                }
+            ]
+        }
+    ]
+}
