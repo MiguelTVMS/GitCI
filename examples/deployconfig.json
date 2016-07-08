@@ -5,6 +5,7 @@
             "type": "prepublish",
             "actions": [
                 {
+                    "type": "commands",
                     "commands": [
                         {
                             "command": "cd",
