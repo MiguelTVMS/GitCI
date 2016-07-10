@@ -27,3 +27,5 @@ Latest Version: [![npm version](https://badge.fury.io/js/gitci.svg)](https://bad
 ### To do
 * Start executing action modules.
 * Make usage of the CommandAction cretated for this app.
+
+##### Follow the development status at [Trello](https://trello.com/b/kiEfErQ8)
