@@ -14,7 +14,8 @@
   "dependencies": {
     "forever-monitor": "^1.7.0",
     "gitcapsule": "^0.1.1",
-    "gitci-commandaction": "^1.0.1"
+    "gitci-commandaction": "^1.0.1",
+    "string": "^3.3.1"
   },
   "bugs": {
     "email": "gitci@miguel.ms",
