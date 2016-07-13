@@ -12,7 +12,8 @@
             "branch": "master",
             "workspaceFolder": "/deploy/gitci-examples",
             "configFile": "commandConfig.json",
-            "pullInterval": 20
+            "pullInterval": 20,
+            "createWorkspace": true
         }
     ]
 }
