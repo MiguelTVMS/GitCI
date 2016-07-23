@@ -38,3 +38,6 @@ jspm_packages
 
 #npm packages
 *.tgz
+
+# Test deployment folder
+test-deploy

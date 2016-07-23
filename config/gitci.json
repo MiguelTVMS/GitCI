@@ -10,7 +10,7 @@
             "name": "DeploymentName",
             "gitRepository": "https://github.com/jmtvms/GitCI-Examples.git",
             "branch": "master",
-            "workspaceFolder": "/deploy/gitci-examples",
+            "workspaceFolder": "../test-deploy/gitci-examples",
             "configFile": "commandConfig.json",
             "pullInterval": 20,
             "createWorkspace": true
